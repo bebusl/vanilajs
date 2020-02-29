@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mementum</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='index.css'>
+</head>
+<body>
+    <div class="js-clock">
+        <h1>00:00</h1> <!---시간표시 부분-->
+    </div>
+    <form class="js-form form">
+        <input type="text" placeholder="What is your name?" /><!--처음에이름입력부-->
+    </form>
+    <h4 class="js-greetings greetings"></h4> <!---이름 입력하고 난후 환영 인사 나올 부분-->
+    <form class="js-toDoForm"><!---투두리스트-->
+        <input type="text" placeholder="Write a to do" />
+        <!--value하면 입력이 돼있는거고(엔터치면 value에 지정한 값이 그대로 제출됨) placeholder하면 진짜 안내문. 입력되어 있는게 아님-->
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+    <span class="js-weather"></span>
+    <script src='clock.js'></script>
+    <script src='greeting.js'></script>
+    <script src='todo.js'></script>
+    <script src='bg.js'></script>
+    <script src='weather.js'></script>
+</body>
+</html>
