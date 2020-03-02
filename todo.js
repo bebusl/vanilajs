@@ -26,7 +26,7 @@ function deleteToDo(event){
 function paintToDO(text){
     const li = document.createElement("li");//createElement는 빈 HTML요소 만들어 주는 것
     const delBtn=document.createElement("button");
-    delBtn.innerText="삭제";
+    delBtn.innerText="🙅‍♀️";
     delBtn.addEventListener("click",deleteToDo);
     const span=document.createElement("span");
     const newId=toDos.length+1;
